@@ -1,0 +1,128 @@
+# mac皮肤
+patch:
+  # 候选框样式
+  style:
+    color_scheme: 1              # 如果想要修改皮肤，直接更改 color_scheme 的值即可
+  preset_color_schemes:
+    1:
+      name: "淡蓝"    
+      author: "YanFung"
+      back_color: 0xFFFFFF
+      border_height: 0
+      border_width: 0
+      candidate_format: "%c %@ "
+      comment_text_color: 0x5AC461
+      corner_radius: 5
+      #font_face: PingFangSC
+      #font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_label_color: 0x808080        
+      hilited_candidate_back_color: 0xFFF0E4
+      hilited_candidate_text_color: 0xEE6E00
+      horizontal: true
+      inline_preedit: true
+      # label_font_face: "STHeitiSC-Light"
+      label_font_point: 12
+      text_color: 0x000000
+    2:
+      name: 藏青
+      author: "YanFung"
+      border_height: 0                                     # 边距 - 面板上下
+      border_width: 0                                      # 边距 - 面板左右
+      border_color: 0x808080                          # 颜色 - 边框
+      back_color: 0xffffff                                 # 颜色 - 面板背景
+      label_color: 0x808080                             # 颜色 - 候选序号
+      font_point: 18                                         # 字体大小 - 候选
+      label_font_point: 13                                 # 字体大小 - 候选序号
+      corner_radius: 5                                     # 大小 - 圆角
+      horizontal: true                                       # 是否横向 true 或 false
+      line_spacing: 10                                      # horizental 为 false 时，上下候选的间隔大小
+      inline_preedit: true                                  # 输入的编码是否直接写入编辑器中，如果为 false，未上屏的编码就会写在候选框中
+      spacing: 0                                              # --- 未知
+      candidate_format: "%c %@ "                    # 候选词格式，后面多个空格是为了增加候选词之间的距离
+      text_color: 0x000000                               # 颜色 - 输入中 - 文字
+      hilited_text_color: 0x8E8E93                     # 颜色 - 输入中 - 编码
+      hilited_back_color: 0xEFEFF4                    # 颜色 - 输入中 - 背景
+      hilited_candidate_text_color: 0xffffff          # 颜色 - 首选候选词 - 文字
+      hilited_candidate_back_color: 0xff3E00      # 颜色 - 首选候选词 - 背景
+      hilited_candidate_label_color: 0xffffff          # 颜色 - 首选候选词 - 序号
+      candidate_text_color: 0x000000                 # 颜色 - 其它候选词 - 文字
+      comment_text_color: 0x5AC461                  # 颜色 - 其它候选词 - 提示编码
+# ---------------------------------------
+    3:
+      name: 黑
+      author: "YanFung"
+      horizontal: true
+      inline_preedit: true
+      candidate_format: "%c %@"
+      corner_radius: 5
+      hilited_corner_radius: 0
+      border_height: 6
+      border_width: 12
+      border_color_width: 0
+      font_face: PingFangSC
+      font_point: 18
+      label_font_point: 13
+      text_color: 0xdedddd
+      back_color: 0x3c3c3c
+      label_color: 0x888785
+      border_color: 0x3c3c3c
+      candidate_text_color: 0xdedddd
+      hilited_text_color: 0xdedddd
+      hilited_back_color: 0x3c3c3c
+      hilited_candidate_text_color: 0xefefef
+      # hilited_candidate_back_color: 0xcb5d00
+      hilited_candidate_label_color: 0xefefef
+      comment_text_color: 0xdedddd
+# ----------------------------------- 
+  # 通知栏显示方式以及 ascii_mode 应用，与外观无关
+  show_notifications_via_notification_center: true
+
+  # 以下软件默认英文模式
+  app_options:
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.apple.finder:
+      ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.apple.calculator:
+      ascii_mode: true
+    com.apple.launchpad.launcher:
+      ascii_mode: true
+    com.apple.systempreferences:
+      ascii_mode: true
+    com.apple.ActivityMonitor:
+      ascii_mode: true
+    com.apple.keychainaccess:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      ascii_mode: true
+    com.jetbrains.datagrip:
+      ascii_mode: true
+    com.jetbrains.pycharm:
+      ascii_mode: true
+    io.nteract.nteract:
+      ascii_mode: true
+    com.sequelpro.SequelPro:
+      ascii_mode: true
+    io.termix.client:
+      ascii_mode: true
+    com.agilebits.onepassword7:
+      ascii_mode: true
+    com.agilebits.onepassword7-helper:
+      ascii_mode: true
+    com.kapeli.dashdoc:
+      ascii_mode: true
+    com.svend.uPic:
+      ascii_mode: true
+    com.eusoft.eudic:
+      ascii_mode: true      
