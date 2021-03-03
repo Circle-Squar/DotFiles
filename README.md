@@ -37,6 +37,11 @@ Back up my dot files.   i3wm's DotFile In another repo
     +---------+ Noto 
               + Nerd hack
               + adobe source pro
+    +Rime
+    +---------+ 小鹤双拼(不加形)
+              + 86五笔
+              + luna
+              + ...(自带的)
 
 ### Use:
 
