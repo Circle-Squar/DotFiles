@@ -1,0 +1,5 @@
+{
+    "bitrate": 12000,
+    "max_bitrate": 18000,
+    "rate_control": "VBR"
+}
