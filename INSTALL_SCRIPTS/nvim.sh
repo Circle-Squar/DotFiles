@@ -17,5 +17,5 @@ Installnvim(){
 	mv plug.vim ~/.local/share/nvim/site/autoload/
 
 	nvim -c "PlugInstall" ./nviminstall.info
-	nvim -c "CocInstall coc-clangd coc-cmake coc-emmet coc-git coc-highlight coc-jedi coc-json coc-python coc-sh coc-snippets coc-vimlsp coc-yaml coc-syntax coc-pairs" ./nviminstall.info
+	nvim -c "CocInstall coc-clangd coc-cmake coc-emmet coc-git coc-highlight coc-jedi coc-json coc-pyright coc-jedi coc-sh coc-snippets coc-vimlsp coc-yaml coc-syntax coc-pairs" ./nviminstall.info
 }

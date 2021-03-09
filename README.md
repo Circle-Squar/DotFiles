@@ -42,16 +42,41 @@ Back up my dot files.   i3wm's DotFile In another repo
               + 86五笔
               + luna
               + ...(自带的)
+    +gtk
+    
+    +krita
+    
+    +blender
+    
+    +fish
+    
+    +pcmanfm
+    
+    +obs
 
 ### Use:
 
 	Clone & Run install.sh
 
 ### Dependence:
+	Env:
+	
+	wget
+	git
+	sh
+	
+	
+	Program:
+	
 	Nvim
 		+ python
 		+ npm
 		+ ...(checkhealth)
 	ccls
 	clangd(llvm)
+	yapf (Python Formatter)
+	
+	fcitx5
+	rime
+	
 

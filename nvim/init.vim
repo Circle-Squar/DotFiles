@@ -34,6 +34,9 @@ Plug 'honza/vim-snippets'
 
 Plug 'kenn7/vim-arsync'
 
+"Code Format
+Plug 'sbdchd/neoformat'
+
 call plug#end()
 
 "NerdTree
@@ -167,6 +170,7 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 
 
 
+nnoremap <S-f> :Neoformat<CR>
 
 nnoremap w <C-w>
 
