@@ -1,0 +1,2 @@
+/mnt/sda1/BlenderVideoEditing/Opengl/Chapter/4Shader/ShaderExercise.blend
+/mnt/sda1/BlenderVideoEditing/Opengl/Chapter/4Shader/Shader.blend

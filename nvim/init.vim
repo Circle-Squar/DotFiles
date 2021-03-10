@@ -169,6 +169,7 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 
 
 
+nnoremap <C-n> :FloatermNew<CR>
 
 nnoremap <S-f> :Neoformat<CR>
 

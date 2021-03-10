@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/mnt/sda1/BlenderVideoEditing/Opengl/Chapter/4Shader/
+/CSQ/Download/

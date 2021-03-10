@@ -47,6 +47,8 @@ Back up my dot files.   i3wm's DotFile In another repo
     +krita
     
     +blender
+    +---------+ VSE Transform Tool
+              + Power Sequencer
     
     +fish
     
@@ -64,8 +66,9 @@ Back up my dot files.   i3wm's DotFile In another repo
 	wget
 	git
 	sh
-	
-	
+
+
+​	
 	Program:
 	
 	Nvim
@@ -78,5 +81,5 @@ Back up my dot files.   i3wm's DotFile In another repo
 	
 	fcitx5
 	rime
-	
+
 
