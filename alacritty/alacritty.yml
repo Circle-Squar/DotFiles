@@ -1,4 +1,11 @@
 
 background_opacity: 0.75
 font:
-  size: 7
+  size: 6.5
+  normal:
+    family: "Fira Code"
+  bold:
+    family: "Fira Code"
+  italic:
+    family: "Fira Code"
+    #family: "Hack Nerd Font"
